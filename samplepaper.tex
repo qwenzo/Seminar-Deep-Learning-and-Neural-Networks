@@ -20,7 +20,7 @@
 
 \begin{document}
 %
-\title{Neural networks and Deep Learning \thanks{Supported by organization x.}}
+\title{Neural Networks and Deep Learning \thanks{Supported by organization x.}}
 %
 %\titlerunning{Abbreviated paper title}
 % If the paper title is too long for the running head, you can set
@@ -67,11 +67,15 @@ the first known preceptron was created. The first preceptron was simulated on an
 
 
 
-\section{Mathematical Background}
-
+\section{Mathematical Background and Concept}
+\gls{anns} learn how to accomplish a task by following two main steps:
+forward propagation and backward propagation. Forward propagation is the process of
+predicting labels and computing how deviated these labels from the ones provided in the input data.
+On the other hand, backward propagation tries to correct the predictions by minimizing
+the diffrence between the input labels and the predicted labels. 
 \subsection{Forward Propagation}
-\gls{anns} consist of neurons which are connected via links. Each neuron gets an input and produces an output as a return. 
-Each input is given a certain weight which makes that specific input a more priority in controlling the output of the neuron.
+\gls{anns} consist of neurons which are connected via links. Each neuron gets an input and produces an output. 
+Each input is given a certain weight which makes that specific input has more or less priority in controlling the output of the neuron.
 Neurons calculate their output by multiplying their inputs by their weights and applying a bias to the multiplication. Eqaution \ref{z}
 shows a linear mapping of a single input.
 \begin{equation}
@@ -82,11 +86,12 @@ where $z^i$ is the linear mapping of the $i$th example,  $w^T$ in <- $ R^{1xN} $
 $x^i$ in <- $ R^{Nx1} $ is the input vector  of the form $[x_1, x_2, ... x_N]$ of the $i$th example.
 
 This mapping is then forwaded to an activation function (Eqaution \ref{a}).
+Action functions are used to limit the linear transformation output.
 \begin{equation}
     \label{a}
         a^i = g(z^i)
 \end{equation}
-where $a^i$ is the output of the activation function on the linear mapping of the $i$th example.
+where $a^i$ is the output of the activation function (unit activation) on the linear mapping of the $i$th example.
 
 The choice of the activation function vary depending on the given data (inputs). 
 In general, 
@@ -115,28 +120,39 @@ Therefore, other functions were used to find non-linear seprations between the d
 \end{figure}
 
 \begin{table}
-    \caption{Table captions should be placed above the
-    tables.}\label{tab1}
+    \caption{diffrent Activation functions.}\label{tab1}
     \begin{tabular}{|l|l|l|}
     \hline
     Function name &  Formule & Graph\\
     \hline
-    Title (centered) &  {\Large\bfseries Lecture Notes} & lol \\
-    1st-level heading &  {\large\bfseries 1 Introduction} & 12 point, bold\\
-    2nd-level heading & {\bfseries 2.1 Printing Area} & 10 point, bold\\
-    3rd-level heading & {\bfseries Run-in Heading in Bold.} Text follows & 10 point, bold\\
-    4th-level heading & {\itshape Lowest Level Heading.} Text follows & 10 point, italic\\
+    Sigmoid &  {$ h_ \theta (x) =  \frac{\mathrm{1} }{\mathrm{1} + e^{x} }  $ } &  \begin{minipage}{.3\textwidth}
+        \includegraphics[width=\linewidth, height=30mm]{sigmoid}
+      \end{minipage} \\
+    ReLU &  {$Relu(x) = max(0,x) $} & \begin{minipage}{.3\textwidth}
+        \includegraphics[width=\linewidth, height=30mm]{relu}
+      \end{minipage}\\
+    tanh/ Hyperbolic Tangent & {$\tanh({x})$} & \begin{minipage}{.3\textwidth}
+        \includegraphics[width=\linewidth, height=30mm]{tanh}
+      \end{minipage}\\
     \hline
     \end{tabular}
 \end{table}
 
+After calculating the activation unit for the inputs, a loss function $L$ is calculated for each prediction to measure 
+diffrent it is from the real data. the formula of the loss function varies based on the type of the labels.
+For example, if the labels are discrete valus or categories, 
+Cross-Entropy could be used. Cross-Entropy increases when the predicted probability diverges from the actaul label. 
 
 
 
-\begin{figure}
-\includegraphics[height=6cm]{neuron}
-\caption{https://ujjwalkarn.me/2016/08/09/quick-intro-neural-networks/}
-\end{figure}
+
+
+% \begin{figure}
+% \includegraphics[height=6cm]{neuron}
+% \caption{https://ujjwalkarn.me/2016/08/09/quick-intro-neural-networks/}
+% \end{figure}
+
+
 %
 % ---- Bibliography ----
 %
