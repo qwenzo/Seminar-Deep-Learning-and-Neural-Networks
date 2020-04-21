@@ -1,0 +1,10 @@
+\begin{thebibliography}{1}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+\providecommand{\doi}[1]{https://doi.org/#1}
+
+\bibitem{lemarechal2012cauchy}
+Lemar{\'e}chal, C.: Cauchy and the gradient method. Doc Math Extra
+  \textbf{251}, ~254 (2012)
+
+\end{thebibliography}

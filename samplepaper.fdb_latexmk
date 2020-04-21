@@ -1,14 +1,23 @@
 # Fdb version 3
-["xdvipdfmx"] 1587301349 "c:\Users\power\OneDrive\Desktop\guc\sem 10\seminar\Springer Lecture Notes in Computer Science/samplepaper.xdv" "c:\Users\power\OneDrive\Desktop\guc\sem 10\seminar\Springer Lecture Notes in Computer Science/samplepaper.pdf" "c:\Users\power\OneDrive\Desktop\guc\sem 10\seminar\Springer Lecture Notes in Computer Science/samplepaper" 1587301352
-  "c:\Users\power\OneDrive\Desktop\guc\sem 10\seminar\Springer Lecture Notes in Computer Science/samplepaper.xdv" 1587301349 51148 8c2957e6075ff65335408008f6a340ae "xelatex"
+["bibtex samplepaper"] 1587500400 "samplepaper.aux" "samplepaper.bbl" "samplepaper" 1587501025
+  "./splncs04.bst" 1586593074 32146 ee21ae2a29028dc8ad842a97200982c7 ""
+  "refs.bib" 1587489613 189 7213e7718e8eb15abbb6869f0aa7f0ee ""
+  "samplepaper.aux" 1587501021 2036 f83d90ca276c2be7fb565be0a3720b54 "xelatex"
+  (generated)
+  "samplepaper.blg"
+  "samplepaper.bbl"
+["xdvipdfmx"] 1587501022 "c:\Users\power\OneDrive\Desktop\guc\sem 10\seminar\Springer Lecture Notes in Computer Science/samplepaper.xdv" "c:\Users\power\OneDrive\Desktop\guc\sem 10\seminar\Springer Lecture Notes in Computer Science/samplepaper.pdf" "c:\Users\power\OneDrive\Desktop\guc\sem 10\seminar\Springer Lecture Notes in Computer Science/samplepaper" 1587501025
+  "c:\Users\power\OneDrive\Desktop\guc\sem 10\seminar\Springer Lecture Notes in Computer Science/samplepaper.xdv" 1587501021 65940 8742118760d5ab77aa6be1d73793e4ae "xelatex"
   (generated)
   "c:\Users\power\OneDrive\Desktop\guc\sem 10\seminar\Springer Lecture Notes in Computer Science/samplepaper.pdf"
-["xelatex"] 1587301347 "c:/Users/power/OneDrive/Desktop/guc/sem 10/seminar/Springer Lecture Notes in Computer Science/samplepaper.tex" "c:\Users\power\OneDrive\Desktop\guc\sem 10\seminar\Springer Lecture Notes in Computer Science/samplepaper.xdv" "samplepaper" 1587301351
+["xelatex"] 1587501019 "c:/Users/power/OneDrive/Desktop/guc/sem 10/seminar/Springer Lecture Notes in Computer Science/samplepaper.tex" "c:\Users\power\OneDrive\Desktop\guc\sem 10\seminar\Springer Lecture Notes in Computer Science/samplepaper.xdv" "samplepaper" 1587501025
+  "./images/gd.png" 1587489841 72272 7fc48e0f96901970a7c0549214239c94 ""
   "./images/linear.png" 1586623830 46231 a5e263b772dc33277494ca3e6fd98ddc ""
+  "./images/nn.png" 1587493525 33457 9e098389cb2c130e6461d22d53ff194e ""
   "./images/relu.png" 1587300104 6322 aa21ecd7c713de903518e083d360afd9 ""
   "./images/sigmoid.png" 1587299438 27833 aa3694847667f9db7fb2e501cb20192f ""
   "./images/tanh.png" 1587300006 22314 f51eea7064fa4b674e17e4bc4c244272 ""
-  "c:/Users/power/OneDrive/Desktop/guc/sem 10/seminar/Springer Lecture Notes in Computer Science/samplepaper.tex" 1587301346 7968 8f1a0045b6273db5378d15e2a88425d6 ""
+  "c:/Users/power/OneDrive/Desktop/guc/sem 10/seminar/Springer Lecture Notes in Computer Science/samplepaper.tex" 1587501018 10755 946c8f77d8fb820e0c0df29f152fd40d ""
   "c:/texlive/2019/texmf-dist/fonts/map/fontname/texfonts.map" 1583680427 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm" 1583677644 1120 1e8878807317373affa7f7bba4cf2f6a ""
   "c:/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy7.tfm" 1583677644 1120 7f9f170e8aa57527ad6c49feafd45d54 ""
@@ -53,6 +62,7 @@
   "c:/texlive/2019/texmf-dist/tex/latex/datatool/datatool-base.sty" 1583679244 93620 4e9f9aa754a2337e89df3eeca1527291 ""
   "c:/texlive/2019/texmf-dist/tex/latex/datatool/datatool-fp.sty" 1583679244 3944 92aa06b5428fcc1b751c82409f23f92f ""
   "c:/texlive/2019/texmf-dist/tex/latex/etoolbox/etoolbox.sty" 1583680033 45259 743c52a37a6e5ed83cfe0e128b2da10d ""
+  "c:/texlive/2019/texmf-dist/tex/latex/float/float.sty" 1583680369 6749 16d2656a1984957e674b149555f1ea1d ""
   "c:/texlive/2019/texmf-dist/tex/latex/fp/defpattern.sty" 1583680518 1081 6a8d78d0e6b2d89334f92fd122c1da99 ""
   "c:/texlive/2019/texmf-dist/tex/latex/fp/fp-addons.sty" 1583680518 1275 fe903646b72b3e877914d78f2db9ddda ""
   "c:/texlive/2019/texmf-dist/tex/latex/fp/fp-basic.sty" 1583680518 29695 b6366b50463dfb367cf560419d0cea8d ""
@@ -94,17 +104,20 @@
   "c:/texlive/2019/texmf-dist/web2c/texmf.cnf" 1583686237 39451 6c50cbbc48279cc2d67f72e32ca48ad5 ""
   "c:/texlive/2019/texmf-var/web2c/xetex/xelatex.fmt" 1583692727 4646344 9a81ff819e22c50f08c70f2bc397f747 ""
   "c:/texlive/2019/texmf.cnf" 1583692275 673 4ae7b2f49cee444c5343a45b5d0f169c ""
-  "c:\Users\power\OneDrive\Desktop\guc\sem 10\seminar\Springer Lecture Notes in Computer Science/samplepaper.aux" 1587301349 1351 6a6c8fb8475084754f7417642f8f50b5 ""
+  "c:\Users\power\OneDrive\Desktop\guc\sem 10\seminar\Springer Lecture Notes in Computer Science/samplepaper.aux" 1587501021 2036 f83d90ca276c2be7fb565be0a3720b54 ""
+  "images/gd.png" 1587489841 72272 7fc48e0f96901970a7c0549214239c94 ""
   "images/linear.png" 1586623830 46231 a5e263b772dc33277494ca3e6fd98ddc ""
+  "images/nn.png" 1587493525 33457 9e098389cb2c130e6461d22d53ff194e ""
   "images/relu.png" 1587300104 6322 aa21ecd7c713de903518e083d360afd9 ""
   "images/sigmoid.png" 1587299438 27833 aa3694847667f9db7fb2e501cb20192f ""
   "images/tanh.png" 1587300006 22314 f51eea7064fa4b674e17e4bc4c244272 ""
   "llncs.cls" 1586593074 42249 b08ec23e994470d7d8fc268d245cf555 ""
-  "samplepaper.aux" 1587301349 1351 6a6c8fb8475084754f7417642f8f50b5 "xelatex"
-  "samplepaper.tex" 1587301346 7968 8f1a0045b6273db5378d15e2a88425d6 ""
+  "samplepaper.aux" 1587501021 2036 f83d90ca276c2be7fb565be0a3720b54 "xelatex"
+  "samplepaper.bbl" 1587500401 294 39a62eb5969d4500aa95ab4b9b525d26 "bibtex samplepaper"
+  "samplepaper.tex" 1587501018 10755 946c8f77d8fb820e0c0df29f152fd40d ""
   (generated)
-  "c:\Users\power\OneDrive\Desktop\guc\sem 10\seminar\Springer Lecture Notes in Computer Science/samplepaper.log"
   "samplepaper.log"
+  "c:\Users\power\OneDrive\Desktop\guc\sem 10\seminar\Springer Lecture Notes in Computer Science/samplepaper.xdv"
+  "c:\Users\power\OneDrive\Desktop\guc\sem 10\seminar\Springer Lecture Notes in Computer Science/samplepaper.log"
   "samplepaper.aux"
   "samplepaper.xdv"
-  "c:\Users\power\OneDrive\Desktop\guc\sem 10\seminar\Springer Lecture Notes in Computer Science/samplepaper.xdv"

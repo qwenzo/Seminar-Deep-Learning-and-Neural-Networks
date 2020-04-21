@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2020.3.8)  19 APR 2020 15:02
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2020.3.8)  21 APR 2020 22:30
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -393,55 +393,80 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)) (c:/texlive/2019/texmf-dist/tex/latex/l3backend/l3backend-xdvipdfmx.def
+)) (c:/texlive/2019/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count311
+\float@exts=\toks36
+\float@box=\box100
+\@float@everytoks=\toks37
+\@floatcapt=\box101
+) (c:/texlive/2019/texmf-dist/tex/latex/l3backend/l3backend-xdvipdfmx.def
 File: l3backend-xdvipdfmx.def 2020-02-23 L3 backend support: xdvipdfmx
-\g__graphics_track_int=\count311
-\l__pdf_internal_box=\box100
-\g__pdf_backend_object_int=\count312
-\g__pdf_backend_annotation_int=\count313
-) (c:\Users\power\OneDrive\Desktop\guc\sem 10\seminar\Springer Lecture Notes in Computer Science/samplepaper.aux)
+\g__graphics_track_int=\count312
+\l__pdf_internal_box=\box102
+\g__pdf_backend_object_int=\count313
+\g__pdf_backend_annotation_int=\count314
+) (c:\Users\power\OneDrive\Desktop\guc\sem 10\seminar\Springer Lecture Notes in Computer Science/samplepaper.aux
+
+LaTeX Warning: Label `zvec' multiply defined.
+
+
+LaTeX Warning: Label `gdu' multiply defined.
+
+)
 \openout1 = `samplepaper.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 21.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 21.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 24.
  (c:/texlive/2019/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 45.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 48.
  (c:/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 45.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 48.
  (c:/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1
+)
+File: ./images/nn.png Graphic file (type bmp)
+<./images/nn.png>
+ [1
 
-]
+] [2]
 File: ./images/linear.png Graphic file (type bmp)
 <./images/linear.png>
 
-Underfull \hbox (badness 6428) in paragraph at lines 119--119
-[]\TU/lmr/bx/n/9 Fig.1. \TU/lmr/m/n/9 Example of a linear activation function on non linearly separa-
+Underfull \hbox (badness 6428) in paragraph at lines 148--148
+[]\TU/lmr/bx/n/9 Fig.2. \TU/lmr/m/n/9 Example of a linear activation function on non linearly separa-
  []
 
 
-Underfull \hbox (badness 1460) in paragraph at lines 119--119
+Underfull \hbox (badness 1460) in paragraph at lines 148--148
 \TU/lmr/m/n/9 ble data https://www.r-bloggers.com/interactive-visualization-of-non-linear-logistic-
+ []
+
+[3]
+File: ./images/gd.png Graphic file (type bmp)
+<./images/gd.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 175--175
+[]\TU/lmr/bx/n/9 Fig.3. \TU/lmr/m/n/9 Gradient descent visualization https://docs.paperspace.com/machine-
  []
 
 File: ./images/sigmoid.png Graphic file (type bmp)
@@ -450,14 +475,18 @@ File: ./images/relu.png Graphic file (type bmp)
 <./images/relu.png>
 File: ./images/tanh.png Graphic file (type bmp)
 <./images/tanh.png>
-[2] [3] (c:\Users\power\OneDrive\Desktop\guc\sem 10\seminar\Springer Lecture Notes in Computer Science/samplepaper.aux) ) 
+(c:\Users\power\OneDrive\Desktop\guc\sem 10\seminar\Springer Lecture Notes in Computer Science/samplepaper.bbl) [4] [5] (c:\Users\power\OneDrive\Desktop\guc\sem 10\seminar\Springer Lecture Notes in Computer Science/samplepaper.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 7077 strings out of 479805
- 104822 string characters out of 5896669
+ 7224 strings out of 479805
+ 106908 string characters out of 5896669
  418742 words of memory out of 5000000
- 24063 multiletter control sequences out of 15000+600000
+ 24203 multiletter control sequences out of 15000+600000
  541536 words of font info for 70 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 51i,10n,37p,1109b,431s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 51i,10n,37p,1109b,435s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on c:\Users\power\OneDrive\Desktop\guc\sem 10\seminar\Springer Lecture Notes in Computer Science/samplepaper.xdv (3 pages, 51148 bytes).
+Output written on c:\Users\power\OneDrive\Desktop\guc\sem 10\seminar\Springer Lecture Notes in Computer Science/samplepaper.xdv (5 pages, 65940 bytes).

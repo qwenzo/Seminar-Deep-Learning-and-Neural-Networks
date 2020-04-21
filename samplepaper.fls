@@ -109,6 +109,8 @@ INPUT c:/texlive/2019/texmf-dist/tex/latex/amsfonts/amssymb.sty
 INPUT c:/texlive/2019/texmf-dist/tex/latex/amsfonts/amssymb.sty
 INPUT c:/texlive/2019/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 INPUT c:/texlive/2019/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+INPUT c:/texlive/2019/texmf-dist/tex/latex/float/float.sty
+INPUT c:/texlive/2019/texmf-dist/tex/latex/float/float.sty
 INPUT c:/texlive/2019/texmf-dist/tex/latex/l3backend/l3backend-xdvipdfmx.def
 INPUT c:/texlive/2019/texmf-dist/tex/latex/l3backend/l3backend-xdvipdfmx.def
 INPUT c:\Users\power\OneDrive\Desktop\guc\sem 10\seminar\Springer Lecture Notes in Computer Science/samplepaper.aux
@@ -156,9 +158,13 @@ INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
+INPUT c:\Users\power\OneDrive\Desktop\guc\sem 10\seminar\Springer Lecture Notes in Computer Science/./images/nn.png
 OUTPUT c:\Users\power\OneDrive\Desktop\guc\sem 10\seminar\Springer Lecture Notes in Computer Science/samplepaper.xdv
 INPUT c:\Users\power\OneDrive\Desktop\guc\sem 10\seminar\Springer Lecture Notes in Computer Science/./images/linear.png
+INPUT c:\Users\power\OneDrive\Desktop\guc\sem 10\seminar\Springer Lecture Notes in Computer Science/./images/gd.png
 INPUT c:\Users\power\OneDrive\Desktop\guc\sem 10\seminar\Springer Lecture Notes in Computer Science/./images/sigmoid.png
 INPUT c:\Users\power\OneDrive\Desktop\guc\sem 10\seminar\Springer Lecture Notes in Computer Science/./images/relu.png
 INPUT c:\Users\power\OneDrive\Desktop\guc\sem 10\seminar\Springer Lecture Notes in Computer Science/./images/tanh.png
+INPUT c:\Users\power\OneDrive\Desktop\guc\sem 10\seminar\Springer Lecture Notes in Computer Science/samplepaper.bbl
+INPUT c:\Users\power\OneDrive\Desktop\guc\sem 10\seminar\Springer Lecture Notes in Computer Science/samplepaper.bbl
 INPUT c:\Users\power\OneDrive\Desktop\guc\sem 10\seminar\Springer Lecture Notes in Computer Science/samplepaper.aux

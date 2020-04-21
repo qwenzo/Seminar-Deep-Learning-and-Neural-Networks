@@ -8,8 +8,11 @@
 \usepackage[acronym]{glossaries}
 \usepackage{mathtools}
 \usepackage{amssymb}
+\usepackage{float}
 \graphicspath{ {./images/} }
 \newacronym{ann}{ANN}{Artificial Neural Network}
+\newacronym{mse}{MSE}{Mean Squared Error}
+\newacronym{mae}{MAS}{Mean Absolute Error}
 \newacronym{anns}{ANNs}{Artificial Neural Networks}
 % Used for displaying a sample figure. If possible, figure files should
 % be included in EPS format.
@@ -55,7 +58,7 @@ The abstract should briefly summarize the contents of the paper in
 %
 \section{Introduction}
 
-\gls{anns} and preceptrons are intelligent units that has taken inspiration
+\gls{anns} and preceptrons are intelligent units that have taken inspiration
 from biology, especially the brain (cite). \gls{anns} work by taking labeled inputs
 and then trying to find a mathematical rule or function to systematically answer the question
 of which label belongs to which input, and later identify labels of new inputs that have never been seen before by the network. For example, inputs could be human images and the labels are 
@@ -74,13 +77,24 @@ predicting labels and computing how deviated these labels from the ones provided
 On the other hand, backward propagation tries to correct the predictions by minimizing
 the diffrence between the input labels and the predicted labels. 
 \subsection{Forward Propagation}
-\gls{anns} consist of neurons which are connected via links. Each neuron gets an input and produces an output. 
+\gls{anns} consist of layers where each layer has neurons which are connected via links (Figure \ref{nn}). Each neuron gets an input and produces an output. 
 Each input is given a certain weight which makes that specific input has more or less priority in controlling the output of the neuron.
+
+\begin{figure}[H]
+    \label{nn}
+    \centering
+    \includegraphics[height=6cm]{nn}
+    \caption{(a) A single-layer \gls{ann} where the first layer has only one neuron. 
+    (b) A multi-layer \gls{ann} with 2 hidden layers. 
+    }
+    %https://www.researchgate.net/figure/a-The-building-block-of-deep-neural-networks-artificial-neuron-or-node-Each-input-x_fig1_312205163
+\end{figure}
+
 Neurons calculate their output by multiplying their inputs by their weights and applying a bias to the multiplication. Eqaution \ref{z}
 shows a linear mapping of a single input.
 \begin{equation}
 \label{z}
-    z^i = w^T * x^i + b
+    z^i = w^Tx^i + b
 \end{equation}
 where $z^i$ is the linear mapping of the $i$th example,  $w^T$ in <- $ R^{1xN} $ is the weight vector of the form $[w_1, w_2, ... w_N]$ and
 $x^i$ in <- $ R^{Nx1} $ is the input vector  of the form $[x_1, x_2, ... x_N]$ of the $i$th example.
@@ -92,6 +106,19 @@ Action functions are used to limit the linear transformation output.
         a^i = g(z^i)
 \end{equation}
 where $a^i$ is the output of the activation function (unit activation) on the linear mapping of the $i$th example.
+
+To avoid manaully looping over each example, all of the variables are used
+as vectors.(add the l's correctly in the eqts)
+
+\begin{equation}
+    \label{zvec}
+        Z^{[l]} = W^{T[l]}X + b^{[l]}
+\end{equation}
+
+\begin{equation}
+    \label{zvec}
+        A = g(Z)
+\end{equation}
 
 The choice of the activation function vary depending on the given data (inputs). 
 In general, 
@@ -106,18 +133,68 @@ f(x) = \left\{ \begin{array}{ll} +1 \quad z^i \leq 0 \\ -1 \quad \text{otherwise
 
 Another type of activation functions is linear. 
 Linear functions forward the input directly to the output without any transformation.
-This is useful in problems where the output is continuous, for example, predicting house prices.
+This is useful in problems where the output is continuous. For example, predicting house prices.
 
 Although all of the previous functions are useful for some sitautions, 
 they fail to find a pattern if the data is non-linearly separable
 since the function will only be able to draw a linear decesion boundary that can devide the data into two groups.
-Therefore, other functions were used to find non-linear seprations between the data such as sigmoid, ReLU and tanh/ Hyperbolic Tangent. 
+Therefore, other functions are used to find non-linear seprations between the data such as sigmoid, ReLU and tanh/ Hyperbolic Tangent. 
 
-\begin{figure}
+\begin{figure}[H]
+    \label{nls}
+    \centering
     \includegraphics[height=4cm]{linear}
     \caption{Example of a linear activation function on non linearly separable data
     https://www.r-bloggers.com/interactive-visualization-of-non-linear-logistic-regression-decision-boundaries-with-shiny/}
 \end{figure}
+
+After calculating the activation unit for the inputs, a loss function $L$ is calculated for each prediction to measure 
+how different the prediction is from the real data. the formula of the loss function varies based on the type of the labels.
+For example, if the labels are binary values (consisting of two classes), 
+Log Loss could be used. 
+this loss function . Alternatively, if the labels are continuous, 
+\gls{mae} or \gls{mse} are used(?).
+
+
+\subsection{Backward Propagation}
+
+Backward propagation is the process of tunning the input weights of each 
+neuron to correctly predict new labels. In other words,
+finding the weights that minimize the loss function. These weights are calculated through
+an algorithm called gradient descent \cite{lemarechal2012cauchy}. Gradient descent is the process of iteratively updating
+the parameters of a function (input weights) in the direction of the steepest descent until a local minima is reached.
+To give a better idea, we can imagine the parameter space as a surface from where we follow
+the direction of the slope downhill until we reach a valley (Figure \ref{gd}).
+Moreover, the slope is calculated by finding the first partial derivative of a function $J$ in respect to every parameter of the function (Eqaution \ref{gdu}). 
+
+\begin{figure}[H]
+    \label{gd}
+    \centering
+    \includegraphics[height=4cm]{gd}
+    \caption{Gradient descent visualization
+    https://docs.paperspace.com/machine-learning/wiki/gradient-descent}
+\end{figure}
+
+\begin{equation}
+    \label{gdu}
+w_{i} = w_{i} - \eta \frac{\partial J(W)}{\partial w_{i}}
+\end{equation}
+
+in case of a multi-layer \gls{ann} with $L$ layers, the gradient is instead calculated 
+with the chain rule where the partial derivative is applied on each of the hidden layers
+till the first layer is reached(caption).
+
+\begin{equation}
+    \label{gdu}
+w_{i} = w_{i} - \eta (\frac{\partial J(g_{i}(W))}{\partial g_{i}(W)}\frac{\partial g_{i}(W)}{\partial W})
+\end{equation}
+
+Since in the multi-layer \gls{anns} the derivative is also applied to the activation functions,
+the choice of which activation function to be used is crucial. For example, using 
+tanh or sigmoid functions may result in a slower learning process, as the first derivative of these functions
+is not so steep on high values (inset label and refrence).
+
+
 
 \begin{table}
     \caption{diffrent Activation functions.}\label{tab1}
@@ -138,11 +215,6 @@ Therefore, other functions were used to find non-linear seprations between the d
     \end{tabular}
 \end{table}
 
-After calculating the activation unit for the inputs, a loss function $L$ is calculated for each prediction to measure 
-diffrent it is from the real data. the formula of the loss function varies based on the type of the labels.
-For example, if the labels are discrete valus or categories, 
-Cross-Entropy could be used. Cross-Entropy increases when the predicted probability diverges from the actaul label. 
-
 
 
 
@@ -159,28 +231,29 @@ Cross-Entropy could be used. Cross-Entropy increases when the predicted probabil
 % BibTeX users should specify bibliography style 'splncs04'.
 % References will then be sorted and formatted in the correct style.
 %
-% \bibliographystyle{splncs04}
-% \bibliography{mybibliography}
+\bibliographystyle{splncs04}
+\bibliography{refs}
 %
-\begin{thebibliography}{8}
-\bibitem{ref_article1}
-Author, F.: Article title. Journal \textbf{2}(5), 99--110 (2016)
+% \begin{thebibliography}{8}
+% \bibitem{ref_article1}
+% Author, F.: Article title. Journal \textbf{2}(5), 99--110 (2016)
 
-\bibitem{ref_lncs1}
-Author, F., Author, S.: Title of a proceedings paper. In: Editor,
-F., Editor, S. (eds.) CONFERENCE 2016, LNCS, vol. 9999, pp. 1--13.
-Springer, Heidelberg (2016). \doi{10.10007/1234567890}
 
-\bibitem{ref_book1}
-Author, F., Author, S., Author, T.: Book title. 2nd edn. Publisher,
-Location (1999)
+% \bibitem{ref_lncs1}
+% Author, F., Author, S.: Title of a proceedings paper. In: Editor,
+% F., Editor, S. (eds.) CONFERENCE 2016, LNCS, vol. 9999, pp. 1--13.
+% Springer, Heidelberg (2016). \doi{10.10007/1234567890}
 
-\bibitem{ref_proc1}
-Author, A.-B.: Contribution title. In: 9th International Proceedings
-on Proceedings, pp. 1--2. Publisher, Location (2010)
+% \bibitem{ref_book1}
+% Author, F., Author, S., Author, T.: Book title. 2nd edn. Publisher,
+% Location (1999)
 
-\bibitem{ref_url1}
-LNCS Homepage, \url{http://www.springer.com/lncs}. Last accessed 4
-Oct 2017
-\end{thebibliography}
+% \bibitem{ref_proc1}
+% Author, A.-B.: Contribution title. In: 9th International Proceedings
+% on Proceedings, pp. 1--2. Publisher, Location (2010)
+
+% \bibitem{ref_url1}
+% LNCS Homepage, \url{http://www.springer.com/lncs}. Last accessed 4
+% Oct 2017
+% \end{thebibliography}
 \end{document}
