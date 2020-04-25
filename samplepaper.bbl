@@ -1,10 +1,93 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\urlprefix}{URL }
 \providecommand{\doi}[1]{https://doi.org/#1}
 
+\bibitem{earthnet}
+a global map of wind, weather and ocean conditions.
+  \url{https://earth.nullschool.net/}, accessed: 2020-04-25
+
+\bibitem{frankpic}
+Frank rosenblatt with a mark i perceptron computer in 1960.
+  \url{https://www.reddit.com/r/EngineeringPorn/comments/e8a7x8/frank\_rosenblatt\_with\_a\_mark\_i\_perceptron/},
+  accessed: 25.04.2020
+
+\bibitem{sdc}
+German university in cairo (guc) - csen 1094 deep learning for self-driving
+  cars. slim abdennadher.
+  \url{http://met.guc.edu.eg/Courses/CourseEdition.aspx?crsEdId=980}
+
+\bibitem{gdwiki}
+Gradient descent - ai wiki.
+  \url{https://docs.paperspace.com/machine-learning/wiki/gradient-descent}
+
+\bibitem{nonsep}
+Interactive visualization of non-linear logistic regression decision boundaries
+  with shiny.
+  \url{https://www.r-bloggers.com/interactive-visualization-of-non-linear-logistic-regression-decision-boundaries-with-shiny/}
+
+\bibitem{openairubikcube}
+Openai solving the rubik's cube.
+  \url{https://openai.com/blog/solving-rubiks-cube}, accessed: 25.04.2020
+
+\bibitem{amari1982competition}
+Amari, S.i., Arbib, M.A.: Competition and cooperation in neural nets. Springer
+  Lecture Notes in Biomathematics  \textbf{45} (1982)
+
+\bibitem{berner2019dota}
+Berner, C., Brockman, G., Chan, B., Cheung, V., D{\k{e}}biak, P., Dennison, C.,
+  Farhi, D., Fischer, Q., Hashme, S., Hesse, C., et~al.: Dota 2 with large
+  scale deep reinforcement learning. arXiv preprint arXiv:1912.06680  (2019)
+
+\bibitem{gu2020lstm}
+Gu, Z., Li, Z., Di, X., Shi, R.: An lstm-based autonomous driving model using a
+  waymo open dataset. Applied Sciences  \textbf{10}(6), ~2046 (2020)
+
+\bibitem{hassoun1995fundamentals}
+Hassoun, M.H., et~al.: Fundamentals of artificial neural networks. MIT press
+  (1995)
+
+\bibitem{hochreiter1997long}
+Hochreiter, S., Schmidhuber, J.: Long short-term memory. Neural computation
+  \textbf{9}(8),  1735--1780 (1997)
+
+\bibitem{hoffmann1992computer}
+Hoffmann, C.M.: Computer vision, descriptive geometry, and classical mechanics.
+  In: Computer graphics and mathematics, pp. 229--243. Springer (1992)
+
+\bibitem{hou2017deep}
+Hou, X., Shen, L., Sun, K., Qiu, G.: Deep feature consistent variational
+  autoencoder. In: 2017 IEEE Winter Conference on Applications of Computer
+  Vision (WACV). pp. 1133--1141. IEEE (2017)
+
+\bibitem{jagannatha2016structured}
+Jagannatha, A.N., Yu, H.: Structured prediction models for rnn based sequence
+  labeling in clinical text. In: Proceedings of the conference on empirical
+  methods in natural language processing. conference on empirical methods in
+  natural language processing. vol.~2016, p.~856. NIH Public Access (2016)
+
+\bibitem{lecun1998gradient}
+LeCun, Y., Bottou, L., Bengio, Y., Haffner, P.: Gradient-based learning applied
+  to document recognition. Proceedings of the IEEE  \textbf{86}(11),
+  2278--2324 (1998)
+
 \bibitem{lemarechal2012cauchy}
 Lemar{\'e}chal, C.: Cauchy and the gradient method. Doc Math Extra
   \textbf{251}, ~254 (2012)
+
+\bibitem{mckinney2020international}
+McKinney, S.M., Sieniek, M., Godbole, V., Godwin, J., Antropova, N., Ashrafian,
+  H., Back, T., Chesus, M., Corrado, G.C., Darzi, A., et~al.: International
+  evaluation of an ai system for breast cancer screening. Nature
+  \textbf{577}(7788),  89--94 (2020)
+
+\bibitem{werbos1990backpropagation}
+Werbos, P.J.: Backpropagation through time: what it does and how to do it.
+  Proceedings of the IEEE  \textbf{78}(10),  1550--1560 (1990)
+
+\bibitem{yan2016attribute2image}
+Yan, X., Yang, J., Sohn, K., Lee, H.: Attribute2image: Conditional image
+  generation from visual attributes. In: European Conference on Computer
+  Vision. pp. 776--791. Springer (2016)
 
 \end{thebibliography}

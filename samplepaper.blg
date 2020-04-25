@@ -3,44 +3,51 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: samplepaper.aux
 The style file: splncs04.bst
 Database file #1: refs.bib
-You've used 1 entry,
+Warning--to sort, need author or key in frankpic
+Warning--to sort, need author or key in nonsep
+Warning--to sort, need author or key in gdwiki
+Warning--to sort, need author or key in sdc
+Warning--to sort, need author or key in earthnet
+Warning--to sort, need author or key in openairubikcube
+You've used 19 entries,
             2850 wiz_defined-function locations,
-            601 strings with 4584 characters,
-and the built_in function-call counts, 507 in all, are:
-= -- 39
-> -- 7
-< -- 2
-+ -- 3
-- -- 2
-* -- 29
-:= -- 68
-add.period$ -- 1
-call.type$ -- 1
-change.case$ -- 4
+            704 strings with 7878 characters,
+and the built_in function-call counts, 9554 in all, are:
+= -- 767
+> -- 277
+< -- 18
++ -- 118
+- -- 98
+* -- 563
+:= -- 1137
+add.period$ -- 26
+call.type$ -- 19
+change.case$ -- 113
 chr.to.int$ -- 0
-cite$ -- 1
-duplicate$ -- 49
-empty$ -- 48
-format.name$ -- 2
-if$ -- 110
+cite$ -- 25
+duplicate$ -- 863
+empty$ -- 914
+format.name$ -- 108
+if$ -- 2129
 int.to.chr$ -- 0
-int.to.str$ -- 1
-missing$ -- 9
-newline$ -- 9
-num.names$ -- 2
-pop$ -- 14
+int.to.str$ -- 19
+missing$ -- 173
+newline$ -- 63
+num.names$ -- 26
+pop$ -- 368
 preamble$ -- 1
-purify$ -- 3
+purify$ -- 84
 quote$ -- 0
-skip$ -- 17
+skip$ -- 301
 stack$ -- 0
-substring$ -- 28
-swap$ -- 29
-text.length$ -- 2
+substring$ -- 495
+swap$ -- 482
+text.length$ -- 18
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 4
-warning$ -- 0
-while$ -- 5
-width$ -- 2
-write$ -- 15
+type$ -- 74
+warning$ -- 6
+while$ -- 65
+width$ -- 21
+write$ -- 183
+(There were 6 warnings)

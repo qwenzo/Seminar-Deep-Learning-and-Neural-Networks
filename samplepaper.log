@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2020.3.8)  21 APR 2020 22:30
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2020.3.8)  25 APR 2020 20:43
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -6,7 +6,7 @@ entering extended mode
 **"c:/Users/power/OneDrive/Desktop/guc/sem 10/seminar/Springer Lecture Notes in Computer Science/samplepaper.tex"
 (c:/Users/power/OneDrive/Desktop/guc/sem 10/seminar/Springer Lecture Notes in Computer Science/samplepaper.tex
 LaTeX2e <2020-02-02> patch level 5
-L3 programming layer <2020-02-25> (c:\Users\power\OneDrive\Desktop\guc\sem 10\seminar\Springer Lecture Notes in Computer Science/llncs.cls
+L3 programming layer <2020-02-25> (c:/Users/power/OneDrive/Desktop/guc/sem 10/seminar/Springer Lecture Notes in Computer Science/llncs.cls
 Document Class: llncs 2018/03/10 v2.20 
  LaTeX document class for Lecture Notes in Computer Science
 (c:/texlive/2019/texmf-dist/tex/latex/base/article.cls
@@ -406,87 +406,121 @@ File: l3backend-xdvipdfmx.def 2020-02-23 L3 backend support: xdvipdfmx
 \l__pdf_internal_box=\box102
 \g__pdf_backend_object_int=\count313
 \g__pdf_backend_annotation_int=\count314
-) (c:\Users\power\OneDrive\Desktop\guc\sem 10\seminar\Springer Lecture Notes in Computer Science/samplepaper.aux
-
-LaTeX Warning: Label `zvec' multiply defined.
-
+) (c:/Users/power/OneDrive/Desktop/guc/sem 10/seminar/Springer Lecture Notes in Computer Science/samplepaper.aux
 
 LaTeX Warning: Label `gdu' multiply defined.
 
 )
 \openout1 = `samplepaper.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 24.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 29.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 29.
  (c:/texlive/2019/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 48.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 53.
  (c:/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 48.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 53.
  (c:/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-File: ./images/nn.png Graphic file (type bmp)
-<./images/nn.png>
+File: ./images/imge1.jpg Graphic file (type bmp)
+<./images/imge1.jpg>
  [1
 
-] [2]
+]
+File: ./images/nn.png Graphic file (type bmp)
+<./images/nn.png>
+ [2]
 File: ./images/linear.png Graphic file (type bmp)
 <./images/linear.png>
-
-Underfull \hbox (badness 6428) in paragraph at lines 148--148
-[]\TU/lmr/bx/n/9 Fig.2. \TU/lmr/m/n/9 Example of a linear activation function on non linearly separa-
- []
-
-
-Underfull \hbox (badness 1460) in paragraph at lines 148--148
-\TU/lmr/m/n/9 ble data https://www.r-bloggers.com/interactive-visualization-of-non-linear-logistic-
- []
-
-[3]
+ [3]
 File: ./images/gd.png Graphic file (type bmp)
 <./images/gd.png>
+ [4]
+File: ./images/actfig.png Graphic file (type bmp)
+<./images/actfig.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 175--175
-[]\TU/lmr/bx/n/9 Fig.3. \TU/lmr/m/n/9 Gradient descent visualization https://docs.paperspace.com/machine-
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5]
+File: ./images/filter.png Graphic file (type bmp)
+<./images/filter.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 304--304
+[]\TU/lmr/bx/n/9 Fig.6. \TU/lmr/m/n/9 Feature map of size 3x3 applied on a 5x5 binary image
  []
 
-File: ./images/sigmoid.png Graphic file (type bmp)
-<./images/sigmoid.png>
-File: ./images/relu.png Graphic file (type bmp)
-<./images/relu.png>
-File: ./images/tanh.png Graphic file (type bmp)
-<./images/tanh.png>
-(c:\Users\power\OneDrive\Desktop\guc\sem 10\seminar\Springer Lecture Notes in Computer Science/samplepaper.bbl) [4] [5] (c:\Users\power\OneDrive\Desktop\guc\sem 10\seminar\Springer Lecture Notes in Computer Science/samplepaper.aux)
+
+Underfull \hbox (badness 10000) in paragraph at lines 304--304
+\TU/lmr/m/n/9 https://towardsdatascience.com/applied-deep-learning-part-4-convolutional-neural-
+ []
+
+[6]
+File: ./images/max_pool.png Graphic file (type bmp)
+<./images/max_pool.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 327--327
+[]\TU/lmr/bx/n/9 Fig.7. \TU/lmr/m/n/9 a 2x2 Max Pooling operator on a 4x4 gray scale image.
+ []
+
+[7]
+File: ./images/dcnnp.png Graphic file (type bmp)
+<./images/dcnnp.png>
+
+Overfull \hbox (12.57376pt too wide) in paragraph at lines 340--346
+ [][] 
+ []
+
+File: ./images/cancer.png Graphic file (type bmp)
+<./images/cancer.png>
+[8]
+File: ./images/rnn.png Graphic file (type bmp)
+<./images/rnn.png>
+ [9] (c:/Users/power/OneDrive/Desktop/guc/sem 10/seminar/Springer Lecture Notes in Computer Science/samplepaper.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 11--14
+[]\TU/lmr/m/n/9 Frank rosenblatt with a mark i perceptron computer in 1960.
+ []
+
+
+Overfull \hbox (130.02547pt too wide) in paragraph at lines 11--14
+\TU/lmr/m/n/9 https://www.reddit.com/r/EngineeringPorn/comments/e8a7x8/frank_rosenblatt_with_a_mark_i_perceptron/,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--23
+[]\TU/lmr/m/n/9 Gradient descent - ai wiki. https://docs.paperspace.com/machine-
+ []
+
+[10]) [11] (c:/Users/power/OneDrive/Desktop/guc/sem 10/seminar/Springer Lecture Notes in Computer Science/samplepaper.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 7224 strings out of 479805
- 106908 string characters out of 5896669
- 418742 words of memory out of 5000000
- 24203 multiletter control sequences out of 15000+600000
- 541536 words of font info for 70 fonts, out of 8000000 for 9000
+ 7420 strings out of 479805
+ 109657 string characters out of 5896669
+ 421549 words of memory out of 5000000
+ 24410 multiletter control sequences out of 15000+600000
+ 537219 words of font info for 54 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 51i,10n,37p,1109b,435s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 51i,9n,37p,1109b,327s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on c:\Users\power\OneDrive\Desktop\guc\sem 10\seminar\Springer Lecture Notes in Computer Science/samplepaper.xdv (5 pages, 65940 bytes).
+Output written on c:/Users/power/OneDrive/Desktop/guc/sem 10/seminar/Springer Lecture Notes in Computer Science/samplepaper.xdv (11 pages, 169028 bytes).

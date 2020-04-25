@@ -3,9 +3,9 @@ INPUT c:/texlive/2019/texmf.cnf
 INPUT c:/texlive/2019/texmf-dist/web2c/texmf.cnf
 INPUT c:/texlive/2019/texmf-var/web2c/xetex/xelatex.fmt
 INPUT c:/Users/power/OneDrive/Desktop/guc/sem 10/seminar/Springer Lecture Notes in Computer Science/samplepaper.tex
-OUTPUT c:\Users\power\OneDrive\Desktop\guc\sem 10\seminar\Springer Lecture Notes in Computer Science/samplepaper.log
-INPUT c:\Users\power\OneDrive\Desktop\guc\sem 10\seminar\Springer Lecture Notes in Computer Science/llncs.cls
-INPUT c:\Users\power\OneDrive\Desktop\guc\sem 10\seminar\Springer Lecture Notes in Computer Science/llncs.cls
+OUTPUT c:/Users/power/OneDrive/Desktop/guc/sem 10/seminar/Springer Lecture Notes in Computer Science/samplepaper.log
+INPUT c:/Users/power/OneDrive/Desktop/guc/sem 10/seminar/Springer Lecture Notes in Computer Science/llncs.cls
+INPUT c:/Users/power/OneDrive/Desktop/guc/sem 10/seminar/Springer Lecture Notes in Computer Science/llncs.cls
 INPUT c:/texlive/2019/texmf-dist/tex/latex/base/article.cls
 INPUT c:/texlive/2019/texmf-dist/tex/latex/base/article.cls
 INPUT c:/texlive/2019/texmf-dist/tex/latex/base/size10.clo
@@ -113,39 +113,35 @@ INPUT c:/texlive/2019/texmf-dist/tex/latex/float/float.sty
 INPUT c:/texlive/2019/texmf-dist/tex/latex/float/float.sty
 INPUT c:/texlive/2019/texmf-dist/tex/latex/l3backend/l3backend-xdvipdfmx.def
 INPUT c:/texlive/2019/texmf-dist/tex/latex/l3backend/l3backend-xdvipdfmx.def
-INPUT c:\Users\power\OneDrive\Desktop\guc\sem 10\seminar\Springer Lecture Notes in Computer Science/samplepaper.aux
-INPUT c:\Users\power\OneDrive\Desktop\guc\sem 10\seminar\Springer Lecture Notes in Computer Science/samplepaper.aux
-OUTPUT c:\Users\power\OneDrive\Desktop\guc\sem 10\seminar\Springer Lecture Notes in Computer Science/samplepaper.aux
+INPUT c:/Users/power/OneDrive/Desktop/guc/sem 10/seminar/Springer Lecture Notes in Computer Science/samplepaper.aux
+INPUT c:/Users/power/OneDrive/Desktop/guc/sem 10/seminar/Springer Lecture Notes in Computer Science/samplepaper.aux
+OUTPUT c:/Users/power/OneDrive/Desktop/guc/sem 10/seminar/Springer Lecture Notes in Computer Science/samplepaper.aux
 INPUT c:/texlive/2019/texmf-dist/tex/latex/base/ts1cmr.fd
 INPUT c:/texlive/2019/texmf-dist/tex/latex/base/ts1cmr.fd
 INPUT c:/texlive/2019/texmf-dist/fonts/map/fontname/texfonts.map
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx7.tfm
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmmib10.tfm
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmmib10.tfm
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmmib7.tfm
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbsy10.tfm
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbsy10.tfm
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy7.tfm
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
+INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT c:/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
 INPUT c:/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
+INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
 INPUT c:/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
 INPUT c:/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx5.tfm
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmmib5.tfm
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
+INPUT c:/Users/power/OneDrive/Desktop/guc/sem 10/seminar/Springer Lecture Notes in Computer Science/./images/imge1.jpg
+OUTPUT c:/Users/power/OneDrive/Desktop/guc/sem 10/seminar/Springer Lecture Notes in Computer Science/samplepaper.xdv
+INPUT c:/Users/power/OneDrive/Desktop/guc/sem 10/seminar/Springer Lecture Notes in Computer Science/./images/nn.png
+INPUT c:/Users/power/OneDrive/Desktop/guc/sem 10/seminar/Springer Lecture Notes in Computer Science/./images/linear.png
+INPUT c:/Users/power/OneDrive/Desktop/guc/sem 10/seminar/Springer Lecture Notes in Computer Science/./images/gd.png
+INPUT c:/Users/power/OneDrive/Desktop/guc/sem 10/seminar/Springer Lecture Notes in Computer Science/./images/actfig.png
+INPUT c:/Users/power/OneDrive/Desktop/guc/sem 10/seminar/Springer Lecture Notes in Computer Science/./images/filter.png
+INPUT c:/Users/power/OneDrive/Desktop/guc/sem 10/seminar/Springer Lecture Notes in Computer Science/./images/max_pool.png
+INPUT c:/Users/power/OneDrive/Desktop/guc/sem 10/seminar/Springer Lecture Notes in Computer Science/./images/dcnnp.png
+INPUT c:/Users/power/OneDrive/Desktop/guc/sem 10/seminar/Springer Lecture Notes in Computer Science/./images/cancer.png
+INPUT c:/Users/power/OneDrive/Desktop/guc/sem 10/seminar/Springer Lecture Notes in Computer Science/./images/rnn.png
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmmi9.tfm
@@ -158,13 +154,6 @@ INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
-INPUT c:\Users\power\OneDrive\Desktop\guc\sem 10\seminar\Springer Lecture Notes in Computer Science/./images/nn.png
-OUTPUT c:\Users\power\OneDrive\Desktop\guc\sem 10\seminar\Springer Lecture Notes in Computer Science/samplepaper.xdv
-INPUT c:\Users\power\OneDrive\Desktop\guc\sem 10\seminar\Springer Lecture Notes in Computer Science/./images/linear.png
-INPUT c:\Users\power\OneDrive\Desktop\guc\sem 10\seminar\Springer Lecture Notes in Computer Science/./images/gd.png
-INPUT c:\Users\power\OneDrive\Desktop\guc\sem 10\seminar\Springer Lecture Notes in Computer Science/./images/sigmoid.png
-INPUT c:\Users\power\OneDrive\Desktop\guc\sem 10\seminar\Springer Lecture Notes in Computer Science/./images/relu.png
-INPUT c:\Users\power\OneDrive\Desktop\guc\sem 10\seminar\Springer Lecture Notes in Computer Science/./images/tanh.png
-INPUT c:\Users\power\OneDrive\Desktop\guc\sem 10\seminar\Springer Lecture Notes in Computer Science/samplepaper.bbl
-INPUT c:\Users\power\OneDrive\Desktop\guc\sem 10\seminar\Springer Lecture Notes in Computer Science/samplepaper.bbl
-INPUT c:\Users\power\OneDrive\Desktop\guc\sem 10\seminar\Springer Lecture Notes in Computer Science/samplepaper.aux
+INPUT c:/Users/power/OneDrive/Desktop/guc/sem 10/seminar/Springer Lecture Notes in Computer Science/samplepaper.bbl
+INPUT c:/Users/power/OneDrive/Desktop/guc/sem 10/seminar/Springer Lecture Notes in Computer Science/samplepaper.bbl
+INPUT c:/Users/power/OneDrive/Desktop/guc/sem 10/seminar/Springer Lecture Notes in Computer Science/samplepaper.aux
