@@ -7,6 +7,14 @@
 a global map of wind, weather and ocean conditions.
   \url{https://earth.nullschool.net/}, accessed: 2020-04-25
 
+\bibitem{appf}
+Applied deep learning - part 4: Convolutional neural networks - arden dertat.
+  \url{https://towardsdatascience.com/applied-deep-learning-part-4-convolutional-neural-networks-584bc134c1e2}
+
+\bibitem{maxpool}
+Cs231n convolutional neural networks for visual recognition - stanford
+  university. \url{https://cs231n.github.io/convolutional-networks/}
+
 \bibitem{frankpic}
 Frank rosenblatt with a mark i perceptron computer in 1960.
   \url{https://www.reddit.com/r/EngineeringPorn/comments/e8a7x8/frank\_rosenblatt\_with\_a\_mark\_i\_perceptron/},
@@ -26,9 +34,25 @@ Interactive visualization of non-linear logistic regression decision boundaries
   with shiny.
   \url{https://www.r-bloggers.com/interactive-visualization-of-non-linear-logistic-regression-decision-boundaries-with-shiny/}
 
+\bibitem{cnnpro}
+An intuitive explanation of convolutional neural networks - ujjwalkarn.
+  \url{https://ujjwalkarn.me/2016/08/11/intuitive-explanation-convnets/}
+
+\bibitem{mitlectwo}
+Mit intro to deep learning (2019) - lecture 2. \url{
+  http://introtodeeplearning.com/2019/materials/2019\_6S191\_L2.pdf}
+
+\bibitem{mitlecthree}
+Mit intro to deep learning (2020) - lecture 3.
+  \url{http://introtodeeplearning.com/slides/6S191\_MIT\_DeepLearning\_L3.pdf}
+
 \bibitem{openairubikcube}
 Openai solving the rubik's cube.
   \url{https://openai.com/blog/solving-rubiks-cube}, accessed: 25.04.2020
+
+\bibitem{nnimage}
+researchgate - sandra vieira. \url{
+  https://www.researchgate.net/figure/a-The-building-block-of-deep-neural-networks-artificial-neuron-or-node-Each-input-x\_fig1\_312205163}
 
 \bibitem{amari1982competition}
 Amari, S.i., Arbib, M.A.: Competition and cooperation in neural nets. Springer

@@ -4,50 +4,56 @@ The top-level auxiliary file: samplepaper.aux
 The style file: splncs04.bst
 Database file #1: refs.bib
 Warning--to sort, need author or key in frankpic
+Warning--to sort, need author or key in nnimage
 Warning--to sort, need author or key in nonsep
 Warning--to sort, need author or key in gdwiki
 Warning--to sort, need author or key in sdc
+Warning--to sort, need author or key in appf
+Warning--to sort, need author or key in maxpool
+Warning--to sort, need author or key in cnnpro
+Warning--to sort, need author or key in mitlecthree
+Warning--to sort, need author or key in mitlectwo
 Warning--to sort, need author or key in earthnet
 Warning--to sort, need author or key in openairubikcube
-You've used 19 entries,
+You've used 25 entries,
             2850 wiz_defined-function locations,
-            704 strings with 7878 characters,
-and the built_in function-call counts, 9554 in all, are:
-= -- 767
-> -- 277
+            722 strings with 8790 characters,
+and the built_in function-call counts, 10864 in all, are:
+= -- 851
+> -- 283
 < -- 18
-+ -- 118
++ -- 125
 - -- 98
-* -- 563
-:= -- 1137
-add.period$ -- 26
-call.type$ -- 19
-change.case$ -- 113
+* -- 599
+:= -- 1239
+add.period$ -- 32
+call.type$ -- 25
+change.case$ -- 131
 chr.to.int$ -- 0
-cite$ -- 25
-duplicate$ -- 863
-empty$ -- 914
+cite$ -- 37
+duplicate$ -- 995
+empty$ -- 1112
 format.name$ -- 108
-if$ -- 2129
+if$ -- 2447
 int.to.chr$ -- 0
-int.to.str$ -- 19
-missing$ -- 173
-newline$ -- 63
+int.to.str$ -- 25
+missing$ -- 197
+newline$ -- 81
 num.names$ -- 26
-pop$ -- 368
+pop$ -- 464
 preamble$ -- 1
-purify$ -- 84
+purify$ -- 96
 quote$ -- 0
-skip$ -- 301
+skip$ -- 373
 stack$ -- 0
-substring$ -- 495
-swap$ -- 482
+substring$ -- 526
+swap$ -- 530
 text.length$ -- 18
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 74
-warning$ -- 6
+type$ -- 98
+warning$ -- 12
 while$ -- 65
-width$ -- 21
-write$ -- 183
-(There were 6 warnings)
+width$ -- 27
+write$ -- 225
+(There were 12 warnings)

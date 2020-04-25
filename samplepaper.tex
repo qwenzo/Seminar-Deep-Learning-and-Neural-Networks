@@ -19,6 +19,9 @@
 \newacronym{bptt}{BPTT}{Back Propagation Through Time}
 \newacronym{vae}{VAE}{Variational Autoencoders}
 \newacronym{drl}{DRL}{Deep Reinforcement Learning}
+\usepackage[hyphens]{url}
+\usepackage[hidelinks]{hyperref}
+\hypersetup{breaklinks=true}
 % Used for displaying a sample figure. If possible, figure files should
 % be included in EPS format.
 %
@@ -104,9 +107,7 @@ Each input is given a certain weight which makes that specific input has more or
     \centering
     \includegraphics[height=8cm]{nn}
     \caption{(a) A single-layer \gls{ann} where the first layer has only one neuron. 
-    (b) A multi-layer \gls{ann} with 2 hidden layers. 
-    }
-    %https://www.researchgate.net/figure/a-The-building-block-of-deep-neural-networks-artificial-neuron-or-node-Each-input-x_fig1_312205163
+    (b) A multi-layer \gls{ann} with 2 hidden layers \cite{nnimage}. }
 \end{figure}
 
 Neurons calculate their output by multiplying their inputs by their weights and applying a bias to the multiplication. Eqaution \ref{z}
@@ -264,16 +265,16 @@ and their applications.
 \subsection{Convolutional Neural Networks}
 
 While machines can calculate and do other tasks faster than humans,
-they can not sense or see objects. Therfore, many researchers
-tried to mimic human vision through the field of classical Computer Vision \cite{hoffmann1992computer}.
-However, this approach was hard to implement since an explicit algorthim 
+they can not sense or see objects. Therefore, many researchers
+tried to make machines mimic human vision through the field of classical Computer Vision \cite{hoffmann1992computer}.
+However, this approach was hard to implement since an explicit algorithm 
 has to be written. For example, if we want to do a task like
 face detection, we have to define what a face is and how
-far the eys re from each other and other measurements. This is not 
-an easy task because to generalize well,(?) the algorthim has to 
-cover every feature a human face can ever have and their measurements. Deep Learning 
+far the eyes are away from each other and define many other measurements. This is not 
+an easy task, because to generalize well, the algorithm has to 
+cover every feature a human face can ever have and its measurements. Deep Learning 
 and \gls{anns} can solve this problem by just providing enough data
-(face pictures) and applying non-linearity to it.
+(face images) and applying non-linearity to it.
 % \begin{figure}{H}
 %     \label{dcnn}
 %     \centering
@@ -286,22 +287,20 @@ an \gls{ann} can take the pixels as parameters for the network
 and connect them to the neurons. To take all the pixels from
 one image, the \gls{ann} has to provide many parameters. For example,
 a gray scale image with 28x28 size will be presented in 784 parameters, 
-as the image has to be flatten before being process by the \gls{ann}.
-Therfore, other approaches were used to process images with lower dimensionality.
+since the image has to be flatten before being processed by the \gls{ann}.
+Therefore, other approaches were used to process images with lower dimensionality.
 \gls{cnns} use the “convolution” operator \cite{lecun1998gradient}. The main purpose of that 
 operator is to extract only the important features from an image while
 still preserving the spatial relationship between its pixels. This is 
 done using a sqaure of weights (filter) which
-get multiplied by the image values (index-wise) and producing an output called a feature map (Figure \ref{fm}).
-diffrent filters produces diffrent results.
+gets multiplied by the image values (index-wise) and then producing an output called a feature map (Figure \ref{fm}).
 
 
 \begin{figure}[H]
     \label{fm}
     \centering
     \includegraphics[height=4cm]{filter}
-    \caption{Feature map of size 3x3 applied on a 5x5 binary image
-    https://towardsdatascience.com/applied-deep-learning-part-4-convolutional-neural-networks-584bc134c1e2}
+    \caption{A filter of size 3x3 applied on a 5x5 binary image \cite{appf}.}
 \end{figure}
 
 % \begin{figure}
@@ -312,10 +311,10 @@ diffrent filters produces diffrent results.
 %     https://towardsdatascience.com/applied-deep-learning-part-4-convolutional-neural-networks-584bc134c1e2}
 % \end{figure}
 
-a non-linear function is then applied to the produced feature map (Section \ref{fb}).
-To further reduce dimensionality \gls{cnns} uses the spatial pooling operator. This operator
+A non-linear function is then applied to the feature map (Section \ref{fb}).
+To further reduce dimensionality, \gls{cnns} uses the spatial pooling operator.
 This operator has diffrent types: Max, Average, Sum etc. 
-When Max Pooling is used, the largest element is chosen from each wndow.
+When Max Pooling is used, the largest element is chosen from each window.
 Figure \ref{mp} shows a 2x2 Max Pooling operator.
 
 
@@ -323,8 +322,7 @@ Figure \ref{mp} shows a 2x2 Max Pooling operator.
     \label{mp}
     \centering
     \includegraphics[height=5cm]{max_pool}
-    \caption{a 2x2 Max Pooling operator on a 4x4 gray scale image.
-    htttps://cs231n.github.io/convolutional-networks/}
+    \caption{a 2x2 Max Pooling operator on a 4x4 gray scale image \cite{maxpool}.}
 \end{figure}
 
 The learning part in this \gls{ann} is the filter weights. However, we 
@@ -333,7 +331,7 @@ many layers will the \gls{cnns} use and many other parameters. In general,
 the more layers the \gls{ann} has, the more it will be able to detect complex 
 relations between pixels (shapes).
 
-After finishing the previous operator, \gls{cnns} are usaully conncted with 
+After finishing the previous operator, \gls{cnns} are usaully connected with 
 a dense \gls{ann} to be able to predict/ classify a certain image. Figure \ref{dcnnp} 
 shows an example process of a CNN.
 
@@ -342,8 +340,7 @@ shows an example process of a CNN.
     \centering
     \includegraphics[height=3cm]{dcnnp}
     \caption{A CNN applied on a boat image to detect if it falls in 
-    dog, cat, boat or bird categories.
-    https://ujjwalkarn.me/2016/08/11/intuitive-explanation-convnets/}
+    dog, cat, boat or bird categories \cite{cnnpro}.}
 \end{figure}
 
 \gls{cnns} have many applications, especially in healthcare. For instance, 
@@ -353,21 +350,21 @@ shows an example process of a CNN.
     \label{can}
     \centering
     \includegraphics[height=5cm]{cancer}
-    \caption{A CNN applied on a boat image to detect if it falls in 
-    dog, cat, boat or bird categories.}
+    \caption{A figure showing that AI and \gls{cnns} can outperform RD Readers \cite{mitlecthree}.}
 \end{figure}
 
-% http://introtodeeplearning.com/slides/6S191_MIT_DeepLearning_L3.pdf
+
 
 \subsection{Recurrent Neural Networks}
 
-\gls{rnns} is an \gls{ann} architecture that is used in sequential data.
+\gls{rnns} is an \gls{ann} architecture which is used to predict a step in a sequence \cite{hochreiter1997long}.
 For example, consider the sentence "Mathematics is my favorite subject, therefore I want to study \_\_\_ in college".
-A valid guess for the balnk can be Mathematics or Engineering. However, without seeing
-what is before the comma, we would not have gussed the word correctly(?).
+A valid guess for the blank can be Mathematics or Engineering. Without seeing
+what is before the comma, we would not have gussed the word correctly.
 normal \gls{anns} architectures (Section \ref{fb}) propagate the inputs in one way and therefore 
-the inputs are not aware of each other (parameter sharing).
-\gls{rnns} address this problem by having an internal state (also called hidden state) that gets 
+the inputs are not aware of each other (parameter sharing) 
+(not able to see what is before the comma because it process each word separately).
+\gls{rnns} address this problem by having an internal state (also called a hidden state) which gets 
 updated every time when a new input is recieved (Eqaution \ref{rnn}). 
 
 \begin{equation}
@@ -376,30 +373,31 @@ updated every time when a new input is recieved (Eqaution \ref{rnn}).
 \end{equation}
 where $h_{t}$ is the current state at time step $t$ , $f_{W}$ is a function
 based of the input weights $W$, the previous state and the current input,  
-$h_{t-1}$ is the previous at time step $t-1$ and $x_{t}$ is the current input at time step $t$. in addition to update the internal state, the network produces an input at each
-time step $t$ by applying weights to the current state (Figure \ref{rnnf}).
+$h_{t-1}$ is the previous state at time step $t-1$ and $x_{t}$ is the current input at time step $t$. 
+
+In addition to updating the internal state, the network produces an input at each
+time step $t$ by applying weights to the current state (Figure \ref{rnnf}) (Eqaution \ref{rnny}).
 
 \begin{equation}
     \label{rnny}
     \hat{y_{t}} = g(W^T_{hy}, h_{t}).
 \end{equation}
-where $\hat{y_{t}}$ is the prediction at time step $t$, $g()$ is non-linear function,
-$W^{hy}$ is the weight vector between the state and the output, and $h_{t}$ is the current state.
+where $\hat{y_{t}}$ is the prediction at time step $t$, $g()$ is a non-linear function,
+$W_{hy}$ is the weight vector between the state and the output, and $h_{t}$ is the current state.
 
 
-while the forward path is similar to the normal \gls{ann} forward propagate, 
+While the forward path is similar to the normal \gls{ann} forward propagate, 
 the backward path is slightly diffrent. First of all, the loss function $L$ must be calculated
 at each time step. Also, the back propagation has to go through all input weights in 
-every time step. This particular process is caled \gls{bptt} \cite{werbos1990backpropagation}.
+every time step. This particular process is called \gls{bptt} \cite{werbos1990backpropagation}.
 
 \begin{figure}[H]
     \label{rnnf}
     \centering
     \includegraphics[height=3.5cm]{rnn}
     \caption{An unfolded RNN where $W_{hy}$ is the weight vector between the state and the output 
-    , $W_{xh}$ is the weight vector between the current input $x_{t}$ and the state $h_{t}$.}
+    , $W_{xh}$ is the weight vector between the current input $x_{t}$ and the state $h_{t}$ \cite{mitlectwo}.}
 \end{figure}
-% http://introtodeeplearning.com/2019/materials/2019_6S191_L2.pdf
 
 \gls{rnns} proved to be useful in many applications. For example, 
 text prediction \cite{jagannatha2016structured}, Self-Driving Cars \cite{gu2020lstm}, and climate analysis and prediction \cite{earthnet}.
@@ -411,8 +409,8 @@ In conclusion, \gls{anns} have many applications and usages that
 could change our society.
 Unfortunately, we could not cover all of the architectures and applications of \gls{anns},
 since there are many of them. To name a few, \gls{vae} which is used to generate data and 
-reconstruct images \cite{hou2017deep} \cite{yan2016attribute2image} and 
- \gls{drl} which is seen in many applications, such as playing competitive computer games \cite{berner2019dota} and solving the Rubik cube \cite{openairubikcube}.
+reconstruct images \cite{hou2017deep} \cite{yan2016attribute2image}, and 
+\gls{drl} which is seen in many applications, such as playing competitive computer games \cite{berner2019dota} and solving the Rubik cube \cite{openairubikcube}.
 
 
 
@@ -441,6 +439,7 @@ reconstruct images \cite{hou2017deep} \cite{yan2016attribute2image} and
 % BibTeX users should specify bibliography style 'splncs04'.
 % References will then be sorted and formatted in the correct style.
 %
+\Urlmuskip=0mu plus 1mu\relax
 \bibliographystyle{splncs04}
 \bibliography{refs}
 %
