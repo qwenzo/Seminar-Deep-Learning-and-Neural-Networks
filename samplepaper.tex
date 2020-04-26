@@ -227,6 +227,8 @@ the parameters of a function (input weights) in the direction of the steepest de
 To give a better idea, we can imagine the parameter space as a surface from where we follow
 the direction of the slope downhill until we reach a valley (Figure \ref{gd}).
 Moreover, the slope is calculated by finding the first partial derivative of a function $J$ in respect to every parameter of the function (Eqaution \ref{gdu}). 
+the function $J$ is the summation of the function $L_{i}$ (loss function) from $i$ = 0 till $i$ = $m$ where
+$m$ is the number of examples in the input dataset.
 
 \begin{figure}[H]
     \label{gd}
@@ -307,7 +309,7 @@ gets multiplied by the image values (index-wise) and then producing an output ca
 \begin{figure}[H]
     \label{fm}
     \centering
-    \includegraphics[height=4cm]{filter}
+    \includegraphics[height=2cm]{filter}
     \caption{A filter of size 3x3 applied on a 5x5 binary image \cite{appf}.}
 \end{figure}
 
@@ -326,7 +328,7 @@ When Max Pooling is used, the largest element is chosen from each window.
 Figure \ref{mp} shows a 2x2 Max Pooling operator.
 
 
-\begin{figure}{H}
+\begin{figure}[H]
     \label{mp}
     \centering
     \includegraphics[height=5cm]{max_pool}
@@ -343,7 +345,7 @@ After finishing the previous operator, \gls{cnns} are usaully connected with
 a dense \gls{ann} to be able to predict/ classify a certain image. Figure \ref{dcnnp} 
 shows an example process of a CNN.
 
-\begin{figure}{H}
+\begin{figure}[H]
     \label{dcnnp}
     \centering
     \includegraphics[height=3cm]{dcnnp}
@@ -354,7 +356,7 @@ shows an example process of a CNN.
 \gls{cnns} have many applications, especially in healthcare. For instance, 
 \gls{cnns} outperformed expert radiologists at detection breast cancer \cite{mckinney2020international} (Figure \ref{can}).
 
-\begin{figure}{H}
+\begin{figure}[H]
     \label{can}
     \centering
     \includegraphics[height=5cm]{cancer}

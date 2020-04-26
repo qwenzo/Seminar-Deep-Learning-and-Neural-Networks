@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2020.3.8)  26 APR 2020 13:02
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2020.3.8)  26 APR 2020 16:56
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -591,11 +591,14 @@ File: ./images/filter.png Graphic file (type bmp)
 <./images/filter.png>
 File: ./images/max_pool.png Graphic file (type bmp)
 <./images/max_pool.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
  [7]
 File: ./images/dcnnp.png Graphic file (type bmp)
 <./images/dcnnp.png>
 
-Overfull \hbox (12.57376pt too wide) in paragraph at lines 346--351
+Overfull \hbox (12.57376pt too wide) in paragraph at lines 351--353
  [][] 
  []
 
@@ -610,12 +613,12 @@ Underfull \hbox (badness 1769) in paragraph at lines 11--13
  []
 
 [10])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 476.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 478.
  [11]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 476.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 478.
  (c:/Users/power/OneDrive/Desktop/guc/sem 10/seminar/Springer Lecture Notes in Computer Science/samplepaper.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 476.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 476.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 478.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 478.
 Package rerunfilecheck Info: File `samplepaper.out' has not changed.
 (rerunfilecheck)             Checksum: 3E3C0A056D58F6298E8420A05F17B8ED;84.
 
@@ -626,10 +629,10 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  14810 strings out of 479805
  216219 string characters out of 5896669
- 546902 words of memory out of 5000000
+ 547902 words of memory out of 5000000
  31683 multiletter control sequences out of 15000+600000
  537587 words of font info for 56 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  51i,9n,37p,1109b,474s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on c:/Users/power/OneDrive/Desktop/guc/sem 10/seminar/Springer Lecture Notes in Computer Science/samplepaper.xdv (11 pages, 196632 bytes).
+Output written on c:/Users/power/OneDrive/Desktop/guc/sem 10/seminar/Springer Lecture Notes in Computer Science/samplepaper.xdv (11 pages, 197892 bytes).
